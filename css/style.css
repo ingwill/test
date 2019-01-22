@@ -28,6 +28,7 @@ a:hover, a:active, a:focus {
 p {
   padding: 0;
   margin: 0 0 30px 0;
+  /* font-size: 1rem;  probando el tamano de p*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -184,6 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .carousel-content {
   text-align: center;
+  
 
 
 }
@@ -199,6 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   #intro h2 {
     font-size: 28px;
   }
+  
 }
 
 #intro p {
@@ -212,7 +215,13 @@ h1, h2, h3, h4, h5, h6 {
     width: 60%;
   }
 }
-
+/*  CAMBIA EL TAMANO DE INTRO TEXTO */
+ @media (max-width: 768px) {
+  #intro p {
+    font-size: 14px;
+  }
+}
+ 
 #intro .carousel-fade .carousel-inner .carousel-item {
   -webkit-transition-property: opacity;
   transition-property: opacity;
