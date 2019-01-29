@@ -632,6 +632,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#about .jumbo-text {
+  text-transform: uppercase;
+  color: #272727;
+  font-size: 30px;
+}
+
 #about::before {
   content: '';
   position: absolute;
